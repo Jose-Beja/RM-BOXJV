@@ -12,19 +12,19 @@ class Paciente{
  function crearPaciente(){
 
         let nombre = prompt("Ingresa tu nombre");
-        let edad = parseInt(prompt(nombre + " cual es su edad?"))
+        let edad = parseInt(prompt(nombre + " cual es su edad?"));
         let peso= parseFloat(prompt(nombre + " cual es su peso? en KILOGRAMOS"));
-        let estatura = parseFloat(prompt(nombre + " cual es su altura en CENTIMETROS?"))
+        let estatura = parseFloat(prompt(nombre + " cual es su altura en CENTIMETROS?"));
         let nuevoUsuario= new Paciente (nombre,edad,peso,estatura);
-        return nuevoUsuario
+        return nuevoUsuario;
     }
     
  const nuevoPaciente = crearPaciente(); //crea un nuevo paciente
- console.log (nuevoPaciente)
+ console.log (nuevoPaciente);
  const listaPacientes = []; // array vacio al que se le van agregar los pacientes creados.
  
  function agregarPacientes (paciente,arr) { arr.push (paciente)} //agrega el paciente nuevo al array listaPaciente.
- agregarPacientes (nuevoPaciente,listaPacientes)
+ agregarPacientes (nuevoPaciente,listaPacientes);
  
  
  let imc; //creamos let para guardar un dato y ese dato sea el valor del objeto, lo declaramos porque va usasrse en un proceso.
