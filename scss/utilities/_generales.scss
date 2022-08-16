@@ -14,6 +14,11 @@ body{
     @include fondo-pantalla;
 }
 
+/*BOTON MODO DARK*/
+.container-btn-mode{
+    display: none;
+}
+
 /* ESTILOS HEADER GENERAL */
 header{
     width: 100%;

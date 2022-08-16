@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="RM-BOX, Gimnasio, Crossfit, San Juan, Rivadavia, Centro de entrenamiento">
     <meta name="description" content="Bienvenidos a RM-BOX. Promociones vigentes.">
+    <!-- link boton modo dark -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
     <!-- link a mi hoja de estilos. -->
     <link rel="stylesheet" href="../styles/styles.css">
+
     <title>PROMOCIONES</title>
 </head>
-<body>
+<body class="wrapper" id="modo-dark">
     <div class="promociones">
         <header>
             <a href="../index.html">
@@ -27,6 +30,14 @@
                     <li><a href="http://app.crossfyapp.com/default/#!/paises" target="_blank">SACA TU TURNO</a></li>
                 </ul>
             </nav>
+            <div class="container-btn-mode">
+                <div id="id-sun" class="btn-mode sun active">
+                   <i class="fas fa-sun"></i>
+                </div>
+                <div id="id-moon" class="btn-mode moon">
+                   <i class="fas fa-moon"></i>
+                </div>
+            </div>
         </header>
         <main>
             <h1>PROMOCIONES</h1>
@@ -50,8 +61,6 @@
         </div>
     </footer>  
       
-          
-        </div>
-    </div>
+    <script src="../js/darkmode.js"></script>
 </body>
 </html>

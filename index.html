@@ -7,12 +7,16 @@
     <meta name="keywords" content="RM-BOX, Gimnasio, Crossfit, San Juan, Rivadavia, Centro de entrenamiento">
     <meta name="description" content="Somos un centro de entrenamiento donde buscamos que logres un alto rendimiento físico, mejores tu salud y te diviertas entrenando!.">
 
+    <!-- link boton modo dark -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
     <!-- link a mi pagina de estilos. -->
     <link rel="stylesheet" href="styles/styles.css">
+    
     <title>RM BOX</title>
 </head>
-<body>
-    <div class="index">
+<body class="wrapper" id="modo-dark">
+    <div class="index" >
         <header>
             <a href="index.html">
                 <img src="assets/logo/Diseño sin título.png" alt="logo rm box">
@@ -27,6 +31,14 @@
                     <li><a href="http://app.crossfyapp.com/default/#!/paises" target="_blank">SACA TU TURNO</a></li>
                 </ul>
             </nav>
+            <div class="container-btn-mode">
+                <div id="id-sun" class="btn-mode sun active">
+                   <i class="fas fa-sun"></i>
+                </div>
+                <div id="id-moon" class="btn-mode moon">
+                   <i class="fas fa-moon"></i>
+                </div>
+            </div>
         </header>
         <main class="container">
                 <h1 id="titulo" class="row" >BIENVENIDOS</h1>
@@ -40,14 +52,13 @@
                     <a href="https://goo.gl/maps/8hzMCYrkrTC4GgzJ6" target="_blank">/Ubicacion/</a>
                     <a href="https://play.google.com/store/apps/details?id=com.crossfy.app&hl=es_AR&gl=US" target="_blank"> /APP/</a>
                     <p>/ #Comunidad RM /</p>
+                    <div>
+                        <a class="piepagina__whatsapp" href="https://api.whatsapp.com/send?phone=542644366369&app=facebook& entry_point=page_cta&fbclid=IwAR2unafVcXWPViK-O6QELGksE_hMUgKoojqZ9hvFI5ZqRXEESKRYmdGjWJE" target="_blank"><img src="assets/iconos/whatsapp_108042.png" alt="logo de whatsapp"></a></div>
+                    <div> 
                 </div>
-            <div>
-                <div>
-                    <a class="piepagina__whatsapp" href="https://api.whatsapp.com/send?phone=542644366369&app=facebook& entry_point=page_cta&fbclid=IwAR2unafVcXWPViK-O6QELGksE_hMUgKoojqZ9hvFI5ZqRXEESKRYmdGjWJE" target="_blank"><img src="assets/iconos/whatsapp_108042.png" alt="logo de whatsapp"></a></div>
-                <div> 
-            </div>
         </footer> 
         <script src="js/appIndex.js"></script>
+        <script src="js/darkmode.js"></script>
     </div>
 </body>
 </html>

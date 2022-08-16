@@ -18,7 +18,6 @@ class Paciente{
         let nuevoUsuario= new Paciente (nombre,edad,peso,estatura);
         return nuevoUsuario;
     }
-    
  const nuevoPaciente = crearPaciente(); //crea un nuevo paciente
  console.log (nuevoPaciente);
  const listaPacientes = []; // array vacio al que se le van agregar los pacientes creados.
@@ -59,6 +58,7 @@ let resultado = ("Tu indice de masa corporal es: "+ nuevoPaciente.imc + " por lo
 
 alert (resultado); // Resultado.
 
+resultadosEnLista.appendChild(li)
 //filter
 
 const edadMasVeinte = listaPacientes.filter(listaPacientes =>listaPacientes.edad > 20);
