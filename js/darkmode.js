@@ -1,5 +1,4 @@
-/*Si clicamos en el botón del sol, borrarémos la clase css dark-mode del div 
-con id page y se aplicará el estilo active al sol*/
+/*Si clicamos en el botón del sol, borrarémos la clase css dark-mode del div con id page y se aplicará el estilo active al sol*/
 document.getElementById('id-sun').onclick = function(){
     document.getElementById('modo-dark').classList.remove('dark-mode')
     document.getElementById('id-moon').classList.remove('active')

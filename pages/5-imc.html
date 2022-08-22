@@ -40,9 +40,20 @@
     <main>
         <h1>Iindice de Masa Corporal</h1>
         <div class="contenedor">
-            <ul id= "resultadosEnLista">
-            </ul> 
+            <input class="form-control" type="text" id="txtNombreUsuario" placeholder="Ingrese un nombre" name="">
+
+            <input class="form-control" type="text" id="txtEdadUsuario" placeholder="Ingrese su Edad" name="">
+
+            <input class="form-control" type="text" id="txtPesoUsuario" placeholder="Ingrese su Peso en Kg." name="">
+
+            <input class="form-control" type="text" id="txtEstaturaUsuario" placeholder="Ingrese su Esatura en cm." name="">
+
+            <button onclick="calcularImc();"> calcularImc </button>
+
         </div>  
+        <div>
+            <h2 id="imc"></h2>
+        </div>
     </main>
     <footer>
         <div class="piepagina__redes">
@@ -58,7 +69,7 @@
         <div> 
     </div>
 </footer>
-    <script src="../js/scrip.js" ></script> 
+    <script src="../js/imc.js" ></script> 
     <script src="../js/darkmode.js"></script>
 </body>
 </html>
